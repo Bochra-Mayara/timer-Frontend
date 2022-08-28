@@ -28,6 +28,7 @@
 <script>
 import { ref, computed } from 'vue'
 import store from '@/store/index'
+import { apiURL } from "../../config/config.js"
 export default {
     name: 'TrackerComponent',
     data() {
